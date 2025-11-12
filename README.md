@@ -43,3 +43,9 @@ import { Profile, Settings, UserKey } from "./UserComponent";
 
 [Import and Export](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/a6bcc6ba56963a82c05618d138c5307a1a046c3c)
 
+### 04. JSX in React
+
+JSX is a syntax extension for JavaScript thats lets you write HTML-like markup inside a JS file.
+
+![plot](/images_for_note/04.JSX.png?raw=true)
+

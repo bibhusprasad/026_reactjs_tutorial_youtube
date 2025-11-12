@@ -10,8 +10,10 @@ export default Login;
 
 // Named export for Profile component
 export function Profile() {
+    
+    const userName = "Bibhu Prasad Samal";
     return (
-        <h3>Profile Component</h3>
+        <h3>Profile Component. Hello {userName}</h3>
     )
 }
 
