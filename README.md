@@ -49,3 +49,4 @@ JSX is a syntax extension for JavaScript thats lets you write HTML-like markup i
 
 ![plot](/images_for_note/04.JSX.png?raw=true)
 
+[JSX Intro](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/83b4392b8269924d7e60fc4ac6ed9fc4feecfc2e)
