@@ -21,11 +21,17 @@ Must be start with capital letter
 Import and Export
 
 We can export one Default export like "export default App;". This is called Defalut export.
+
 But we can export as many as Named Exports like "export function Profile() {}"
+
 Multiple Named export like "export { Settings, UserKey };"
 
 Same for import
+
 //default import 
+
 import Login from "./UserComponent";
+
 //multiple named imports
+
 import { Profile, Settings, UserKey } from "./UserComponent";
