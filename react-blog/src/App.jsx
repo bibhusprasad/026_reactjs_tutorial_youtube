@@ -1,27 +1,20 @@
-import Header from "./Header";
+
+//default import 
+import Login from "./UserComponent";
+//multiple named imports
+import { Profile, Settings, UserKey } from "./UserComponent";
 
 function App() {
   return (
     <>
-      <Header />
       <div>
         <h2>My First Application</h2>
-        <Fruit />
-        <Color />
+        <Login />
+        <Profile />
+        <Settings />
+        {UserKey}
       </div>
     </>
-  )
-}
-
-function Fruit() {
-  return(
-    <h3>3Apple</h3>
-  )
-}
-
-function Color() {
-  return(
-    <h3>Red</h3>
   )
 }
 
