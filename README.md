@@ -23,29 +23,24 @@ Must be start with capital letter
 
 ### Export
 
-We can export one Default export like "export default App;". This is called Defalut export.
-
-But we can export as many as Named Exports like "export function Profile() {}"
-
-Multiple Named export like "export { Settings, UserKey };"
+* We can export one Default export like "export default App;". This is called Defalut export.
+* But we can export as many as Named Exports like "export function Profile() {}"
+* Multiple Named export like "export { Settings, UserKey };"
 
 ### Import
 
 Same for import
 
-//default import 
-
-import Login from "./UserComponent";
-
-//multiple named imports
-
-import { Profile, Settings, UserKey } from "./UserComponent";
+* //default import 
+* import Login from "./UserComponent";
+* //multiple named imports
+* import { Profile, Settings, UserKey } from "./UserComponent";
 
 [Import and Export](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/a6bcc6ba56963a82c05618d138c5307a1a046c3c)
 
 ### 04. JSX in React
 
-JSX is a syntax extension for JavaScript thats lets you write HTML-like markup inside a JS file.
+* JSX is a syntax extension for JavaScript thats lets you write HTML-like markup inside a JS file.
 
 ![plot](/images_for_note/04.JSX.png?raw=true)
 
@@ -57,3 +52,20 @@ JSX is a syntax extension for JavaScript thats lets you write HTML-like markup i
 
 [JSX with Curly Braces](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/980ec2bc3d0b62f50f0d1fc23143c531596d829f)
 
+[Click Event and Function Call](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/665d4dcbab495862974701c01154064d9507d251)
+
+### 05. State in React
+
+* State is a container to store data like variable
+* This is mutable and dynamic
+* We have to import it when we want to use it
+* It re-render component automatically so that data can visible on UI
+
+### Hooks in React JS
+
+- Hooks are the special feature for functional component
+- Hooks let you use diufferent React features from your components
+    * State
+    * Life Cycle methods
+    * Side effects etc..
+- example useState, useId
