@@ -69,3 +69,6 @@ Same for import
     * Life Cycle methods
     * Side effects etc..
 - example useState, useId
+
+[Pre Use case Before starting State](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/2317252fca5593b50538eff06cba50124297bfdf)
+
