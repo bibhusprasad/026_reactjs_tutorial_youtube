@@ -1,24 +1,26 @@
-
 import { useState } from "react";
-import Counter from "./Counter";
+import User from "./User";
 
 function App() {
 
-  //fruit is a state variable
-  //setFruit is a function to update the state variable
-  const [fruit, setFruit] = useState("Apple");
+  const [display, setDisplay] = useState(true);
 
-  const handleFruit = () => {
-    setFruit("Mango");
+  const showUserName = () => {
+    setDisplay(!display)
   }
 
   return (
     <>
       <div>
-        <h1>State in React</h1>
-        <h2>{fruit}</h2>
-        <button onClick={handleFruit}>Change Fruit</button>
-        <Counter /> 
+         <h2>Toggle in React</h2>
+         <button onClick={showUserName}>Show/Hide</button>
+         {
+          display ? <h2>Bibhu Samal</h2>:null
+         }
+         {
+          !display ? <User />:null
+         }
+         
       </div>
     </>
   )

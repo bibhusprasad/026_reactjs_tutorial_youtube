@@ -23,7 +23,7 @@ Must be start with capital letter
 
 ### Export
 
-* We can export one Default export like "export default App;". This is called Defalut export.
+* We can export one Default export like "export default App;". This is called default export.
 * But we can export as many as Named Exports like "export function Profile() {}"
 * Multiple Named export like "export { Settings, UserKey };"
 
@@ -64,11 +64,18 @@ Same for import
 ### Hooks in React JS
 
 - Hooks are the special feature for functional component
-- Hooks let you use diufferent React features from your components
+- Hooks let you use different React features from your components
     * State
     * Life Cycle methods
     * Side effects etc..
 - example useState, useId
 
 [Pre Use case Before starting State](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/2317252fca5593b50538eff06cba50124297bfdf)
+
+[State Implementation](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/ce1739cad29d6b5197454b3429fda31199cfd69f)
+
+### 06. Basic Conditions in React
+
+### Toggle or Hide and Show in React
+
 
