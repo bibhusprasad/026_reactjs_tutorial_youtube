@@ -84,3 +84,8 @@ Same for import
 
 ### 07. Props in React
 - Props is used to pass data from one component to another component 
+
+[Props in React](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/991a27358867c46ce23a714e6d2187e82f771a27)
+
+### Pass jsx in Props
+

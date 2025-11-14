@@ -1,42 +1,19 @@
-import { useState } from "react";
-import User from "./User";
-import Address from "./Address";
-import College from "./College";
-import Student from "./Student";
+
+import Wrapper from "./Wrapper";
 
 
 function App() {
 
-  let homeAddress = {
-    city: "Cuttack",
-    state: "Odisha",
-    pin: 754204
-  }
-
-  let officeAddress = {
-    city: "Bangalore",
-    state: "Karnataka",
-    pin: 560035
-  }
-
-  let subject = ["C", "C++", "Java", "Python"];
-
-  const [stdname, setStdname] = useState("bibhu")
-
-  function updateName() {
-    setStdname("BIBHU");
-  }
-
   return (
     <>
       <div>
-         <h2>Props in React</h2>
-         <User name="Bibhu Samal" age="34" email="test@gamil.com"/>
-         <Address userAddress = {homeAddress} />
-         <Address userAddress = {officeAddress} />
-         <College userSubject = {subject} />
-         <Student name = {stdname} />
-         <button onClick={updateName}>Update Name</button>
+         <Wrapper> 
+            <h2>Hello User</h2>
+         </Wrapper>
+         <Wrapper> 
+            <h2>Hello Admin</h2>
+            <h3 style={{color: "red"}}>Please Login</h3>
+         </Wrapper>
       </div>
     </>
   )
