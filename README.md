@@ -92,3 +92,12 @@ Same for import
 [pass jsx in props](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/a7860cbd29f2a6c9d73df6653553177dbde488e5)
 
 ### 08. Get Input field Value
+
+[Get Input field Value](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/20beb4c32153090f12f1abf5cf6761b266d3882f)
+
+### 09. Control Component
+
+- A Controlled component is a form whose input filed value is controlled bt React's state
+    * Store input filed value in state
+    * Use change handler with input field
+    * Value attribute attached with State
