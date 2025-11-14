@@ -89,3 +89,6 @@ Same for import
 
 ### Pass jsx in Props
 
+[pass jsx in props](https://github.com/bibhusprasad/026_reactjs_tutorial_youtube/commit/a7860cbd29f2a6c9d73df6653553177dbde488e5)
+
+### 08. Get Input field Value

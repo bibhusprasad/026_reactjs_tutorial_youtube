@@ -1,19 +1,17 @@
-
-import Wrapper from "./Wrapper";
+import { useState } from "react";
 
 
 function App() {
 
+  const [val, setVal] = useState("")
+
   return (
     <>
       <div>
-         <Wrapper> 
-            <h2>Hello User</h2>
-         </Wrapper>
-         <Wrapper> 
-            <h2>Hello Admin</h2>
-            <h3 style={{color: "red"}}>Please Login</h3>
-         </Wrapper>
+         <h2>Get Input filed Value</h2>
+         <input type="text" value={val} onChange={(event)=>{setVal(event.target.value)}} placeholder="Enter user name"></input>
+         <h2>{val}</h2>
+         <button onClick={() => setVal("")}>Clear</button>
       </div>
     </>
   )
